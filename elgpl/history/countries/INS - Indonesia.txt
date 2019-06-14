@@ -12,36 +12,45 @@ set_technology = {
 	tech_recon = 1
 	early_fighter = 1
 	early_bomber = 1
-	early_submarine = 1
-	basic_destroyer = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
-	basic_light_cruiser = 1
-	early_heavy_cruiser = 1
+	
 	transport = 1
 	fuel_silos = 1
 }
 
-set_convoys = 25
-
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 10
-		}
-
-		fascism = {
-			popularity = 10
-		}
-		
-		communism = {
-			popularity = 30
-		}
-		neutrality = {
-			popularity = 50
-		}
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
 	}
+	set_technology = {
+		early_submarine = 1
+		basic_destroyer = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		basic_battery = 1
+	}
+}
+
+set_convoys = 25
+set_popularities = {
+	democratic = 10
+	fascism = 10
+	communism = 30
+	neutrality = 50
 }
 
 create_country_leader = {

@@ -1,4 +1,4 @@
-﻿capital = 60
+﻿capital = 64
 
 oob = "GER_1936"
 
@@ -282,28 +282,20 @@ create_import = {
 }
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 40
-		}
-
-		fascism = {
-			popularity = 55
-		}
-		
-		communism = {
-			popularity = 5
-			banned = yes #default is no
-		}
-	}
-	
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
-
 }
+set_popularities = {
+	democratic = 20
+	fascism = 60
+	communism = 20
+}
+
+create_faction = Axis
+add_to_faction = GER
+
 
 add_ideas = {
 	sour_loser
@@ -312,6 +304,9 @@ add_ideas = {
 	limited_conscription
 	partial_economic_mobilisation
 }
+add_ideas = GER_mefo_bills_1
+
+activate_mission = GER_mefo_bills_mission
 
 create_country_leader = {
 	name = "Adolf Hitler"

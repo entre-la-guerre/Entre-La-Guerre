@@ -15,9 +15,6 @@ set_technology = {
 	tech_engineers = 1
 	early_fighter = 1
 	early_bomber = 1
-	early_destroyer = 1
-	early_submarine = 1
-	early_heavy_cruiser = 1
 	tech_recon = 1
 }
 
@@ -75,59 +72,36 @@ set_convoys = 30
 set_stability = 0.75
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 96
-		}
-
-		fascism = {
-			popularity = 2
-		}
-		
-		communism = {
-			popularity = 2
-		}
-	}
-	
 	ruling_party = democratic
 	last_election = "1933.10.16"
 	election_frequency = 36
 	elections_allowed = yes
 }
+set_popularities = {
+	democratic = 96
+	fascism = 2
+	communism = 2
+}
 
 1939.1.1 = {
 	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 84
-			}
-
-			fascism = {
-				popularity = 2
-			}
-			
-			communism = {
-				popularity = 2
-			}
-
-			neutrality = {
-				popularity = 12
-			}
-		}
-		
 		ruling_party = democratic
 		last_election = "1936.10.19"
 		election_frequency = 36
 		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 84
+		fascism = 2
+		communism = 2
+		neutrality = 12
 	}
 }
 
 create_country_leader = {
 	name = "Sveinn Björnsson"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	picture = "portrait_ice_sveinn_bjornsson.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {

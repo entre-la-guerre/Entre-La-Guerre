@@ -1,17 +1,20 @@
+
 state={
-	id=87
-	name="STATE_87"
-	manpower = 2632000
+	id=789
+	name="Siedlce"
+	manpower = 419002
 	
 	state_category = town
+	
 	history={
-		owner = POL
-		buildings = {
-			infrastructure = 6
-			industrial_complex = 2
+	victory_points = {
+			402 1
 		}
-		victory_points = {
-			9508 10
+		owner = SOV
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			air_base = 1
 		}
 		add_core_of = POL
 
@@ -23,6 +26,6 @@ state={
 	}
 
 	provinces={
-		493 584 9439 9508 9546 11428 11515 548 
+		402 524 12562 9544 3521 11466 6484
 	}
 }

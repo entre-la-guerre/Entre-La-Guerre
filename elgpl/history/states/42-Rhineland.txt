@@ -1,0 +1,38 @@
+
+state={
+	id=42
+	name="STATE_42"
+	manpower = 5027739
+	resources={
+		steel=64 # was: 100
+		aluminium=20 # was: 24
+	}
+	
+	state_category = metropolis
+
+	history={
+		owner = RHI
+		victory_points = { 11435 1 }
+		#victory_points = { 3423 3 }
+		#victory_points = { 9575 3 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+
+		}
+		add_core_of = RHI
+
+		1939.1.1 ={
+			buildings = {
+				radar_station = 1
+				synthetic_refinery = 3
+			}
+		}
+	}
+
+	provinces={
+		563 3423 3558 9575 11435 11470 11494 11547 
+	}
+	
+	
+}

@@ -1,0 +1,42 @@
+division_template = {
+    name = "Dywizja +"
+ 
+    regiments = {
+        motorized = { x = 0 y = 0 }
+        motorized = { x = 0 y = 1 }
+        motorized = { x = 1 y = 0 }
+        motorized = { x = 1 y = 1 }
+        motorized = { x = 0 y = 2 }
+        motorized = { x = 1 y = 2 }
+    }
+    support = {
+        military_police = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+    }
+    priority = 0
+}
+ 
+units = {
+    division= {
+        name = "1. Dywizja +"
+        location = 3544
+        division_template = "Dywizja +"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.75
+    }
+    division= {
+        name = "2. Dywizja +"
+        location = 3544
+        division_template = "Dywizja +"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.75
+    }
+    division= {
+        name = "3. Dywizja +"
+        location = 3544
+        division_template = "Dywizja +"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.75
+    }
+}

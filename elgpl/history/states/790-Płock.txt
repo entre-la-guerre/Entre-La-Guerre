@@ -1,14 +1,14 @@
 
 state={
-	id=789
-	name="Siedlce"
+	id=790
+	name="Płock"
 	manpower = 419002
 	
 	state_category = town
 	
 	history={
-	victory_points = {
-			402 1
+		victory_points = {
+			3230 5
 		}
 		owner = POL
 		buildings = {
@@ -17,15 +17,9 @@ state={
 			air_base = 1
 		}
 		add_core_of = POL
-
-		1939.1.1 = {
-			buildings = {
-				air_base = 3
-			}
-		}
 	}
 
 	provinces={
-		402 524 12562 9544 3521 11466 6484
+		3230 6347 6321 6259 6567
 	}
 }

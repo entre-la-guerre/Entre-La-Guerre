@@ -15,7 +15,7 @@ state={
 		victory_points = {
 			279 1
 		}
-victory_points = {
+		victory_points = {
 			3230 5
 		}
 		buildings = {
@@ -29,12 +29,9 @@ victory_points = {
 			}
 		}
 		add_core_of = POL
-		1938.3.12 = {
-			add_claim_by = GER
-		}
 	}
 
 	provinces={
-		243 279 334 362 389 3295 3324 9263 6401 3230
+		243 279 334 3380 362 389 3295 3324 9263 6401 3230
 	}
 }

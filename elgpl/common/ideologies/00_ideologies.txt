@@ -166,6 +166,9 @@ ideologies = {
 			
 			centrism = {
 			}
+
+			tsarism = {
+			}
 		}
 
 		dynamic_faction_names = {

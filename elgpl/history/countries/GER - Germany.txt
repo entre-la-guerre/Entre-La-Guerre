@@ -282,19 +282,17 @@ create_import = {
 }
 
 set_politics = {
-	ruling_party = fascism
-	last_election = "1933.3.5"
+	ruling_party = democratic
+	last_election = "1921.3.5"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 20
-	fascism = 60
-	communism = 20
+	democratic = 71
+	fascism = 19
+	communism = 10
 }
 
-create_faction = Axis
-add_to_faction = GER
 
 
 add_ideas = {

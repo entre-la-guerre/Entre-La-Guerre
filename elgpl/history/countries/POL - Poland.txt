@@ -8,7 +8,7 @@ if = {
 		set_naval_oob = "POL_1936_naval_legacy"
 	}
 }
-
+puppet = UKR
 set_research_slots = 3
 
 # Starting tech
@@ -208,7 +208,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ignacy Mościcki"
+	name = "Józef Piłsudzki"
 	desc = "POLITICS_IGNACY_MOSCICKI_DESC"
 	picture = "Portrait_Poland_Ignacy_Moscicki.dds"
 	expire = "1965.1.1"

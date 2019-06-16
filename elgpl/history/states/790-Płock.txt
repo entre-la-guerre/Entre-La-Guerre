@@ -2,19 +2,18 @@
 state={
 	id=790
 	name="Płock"
-	manpower = 419002
+	manpower = 219962
 	
 	state_category = town
 	
 	history={
-		victory_points = {
+	victory_points = {
 			3230 5
 		}
 		owner = POL
 		buildings = {
-			infrastructure = 5
+			infrastructure = 4
 			industrial_complex = 2
-			air_base = 1
 		}
 		add_core_of = POL
 	}

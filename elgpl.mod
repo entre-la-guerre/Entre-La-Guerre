@@ -2,8 +2,8 @@
 path="mod/elgpl/"
 tags={
 	"Alternative History"
-	"Gameplay"
+	"Map"
 	"Events"
-	"Ideologies"
+	"Gameplay"
 }
-supported_version="1.6.0"
+supported_version="1.7.0"

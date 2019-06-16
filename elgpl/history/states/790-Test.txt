@@ -1,0 +1,24 @@
+
+state={
+	id=790
+	name="Płock"
+	manpower = 219962
+	
+	state_category = town
+	
+	history={
+	victory_points = {
+			3230 5
+		}
+		owner = POL
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		add_core_of = POL
+	}
+
+	provinces={
+		3230 6347 6321 6259 6567
+	}
+}

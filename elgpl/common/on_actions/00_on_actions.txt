@@ -900,7 +900,6 @@ on_actions = {
 			FRA = {
 				start_civil_war = {
 					ruling_party = communism
-					ideology = anarchist_communism
 					size = 0.4
 					only_own_territory = yes
 				}
